@@ -1761,17 +1761,26 @@ body {
 .cid-qPXkN2yvsU .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-qPXkVgUWc5 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background: #149dcc;
-  background: linear-gradient(0deg, #149dcc, #ffffff);
+.cid-qQ8jO0txCR {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/background3.jpg");
 }
-.cid-qPXkVgUWc5 .video-block {
-  margin: auto;
+.cid-qQ8jO0txCR .mbr-figure {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-@media (max-width: 768px) {
-  .cid-qPXkVgUWc5 .video-block {
+.cid-qQ8jO0txCR .mbr-figure img {
+  height: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  .cid-qQ8jO0txCR .mbr-figure img {
     width: 100% !important;
   }
+}
+.cid-qQ8jO0txCR H1 {
+  color: #ff3366;
 }
